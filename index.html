@@ -4,24 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="side-bar">
-        <h2>Dashboard</h2>
+        <h2><i class="fa-solid fa-chart-line"></i>Dashboard</h2>
         <div class="side-bar-menu1">
-          <div>Home</div>
-          <div>Profile</div>
-          <div>Messages</div>
-          <div>History</div>
-          <div>Tasks</div>
-          <div>Communities</div>
+          <div><i class="fa-solid fa-house-user"></i> Home</div>
+          <div><i class="fa-solid fa-user"></i>Profile</div>
+          <div><i class="fa-solid fa-message"></i>Messages</div>
+          <div>
+            <i class="fa-sharp fa-solid fa-clock-rotate-left"></i>History
+          </div>
+          <div><i class="fa-solid fa-list-check"></i>Tasks</div>
+          <div><i class="fa-solid fa-people-group"></i>Communities</div>
           <div class="side-bar-menu2">
-            <div>Settings</div>
-            <div>Support</div>
-            <div>Privacy</div>
+            <div><i class="fa-solid fa-gear"></i>Settings</div>
+            <div><i class="fa-solid fa-circle-info"></i> Support</div>
+            <div><i class="fa-solid fa-lock"></i>Privacy</div>
           </div>
         </div>
       </div>
@@ -46,21 +55,52 @@
       </div>
       <div class="main-content">
         <div class="main-content-left">
-          <div class="project">Project</div>
-          <div class="project">Project</div>
-          <div class="project">Project</div>
-          <div class="project">Project</div>
-          <div class="project">Project</div>
-          <div class="project">Project</div>
+          <h2>Projects</h2>
+          <div class="main-content-left-projects">
+            <div class="project">Project</div>
+            <div class="project">Project</div>
+            <div class="project">Project</div>
+            <div class="project">Project</div>
+            <div class="project">Project</div>
+            <div class="project">Project</div>
+          </div>
         </div>
         <div class="main-content-right">
-          <h3>Annoncement</h3>
-          <div class="annoncement"></div>
+          <h3>Annoncements</h3>
+          <div class="annoncements">
+            <div class="annoncements-1">
+              <h4>Site Maintenance</h4>
+              <p>
+                sdjkfgskjdfh lskdjfhsdf jhsfgjhs sdjfhgsdjfh s sdjflhg
+                sdfgslkdfgshkldf
+              </p>
+            </div>
+            <div class="annoncements-1">
+              <h4>Commmunity Share Day</h4>
+              <p>
+                sdjkfgskjdfh lskdjfhsdf jhsfgjhs sdjfhgsdjfh s sdjflhg
+                sdfgslkdfgshkldf
+              </p>
+            </div>
+            <div class="annoncements-1">
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                sdjkfgskjdfh lskdjfhsdf jhsfgjhs sdjfhgsdjfh s sdjflhg
+                sdfgslkdfgshkldf
+              </p>
+            </div>
+          </div>
           <h3>Trending</h3>
-          <div class="annoncement"></div>
+          <div class="trending">
+            <div class="trending-icons">
+              <div>icon 1</div>
+              <div>icon 2</div>
+              <div>icon 3</div>
+              <div>icon 4</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="footer">footer</div>
     </div>
   </body>
 </html>
